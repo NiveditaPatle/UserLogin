@@ -157,7 +157,7 @@ const Login = () => {
           <TextField
             required
             id="outlined-required-password"
-            password='password'
+            name='password'
             label="Password"
             type={showPassword ? "text" : "password"}
             margin="normal"
