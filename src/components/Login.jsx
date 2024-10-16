@@ -122,6 +122,7 @@ const Login = () => {
           <TextField
             required
             id="outlined-required-email"
+             name="email"
             label="Email"
             type="email"
             margin="normal"
@@ -156,6 +157,7 @@ const Login = () => {
           <TextField
             required
             id="outlined-required-password"
+            password='password'
             label="Password"
             type={showPassword ? "text" : "password"}
             margin="normal"
